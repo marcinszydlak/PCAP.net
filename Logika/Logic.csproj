@@ -7,7 +7,7 @@
     <ProjectGuid>{05A4CED1-8D61-4872-943D-910A3E57A6E7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Logika</RootNamespace>
+    <RootNamespace>Logic</RootNamespace>
     <AssemblyName>Logika</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -57,6 +57,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Models\DeviceModel.cs" />
+    <Compile Include="Models\PacketModel.cs" />
+    <Compile Include="NetworkTrafficService.cs" />
+    <Compile Include="PacketReceiver.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
