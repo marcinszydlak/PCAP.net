@@ -1,0 +1,46 @@
+﻿<Window x:Class="Interface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Interface"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="150"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Grid.ColumnSpan="2">
+            <DataGrid Margin="5">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID" CanUserResize="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Data wystąpienia" CanUserResize="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Nazwa zdarzenia" CanUserResize="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Protokół" CanUserResize="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Długość żądania" CanUserResize="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Źródło" CanUserResize="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Cel" CanUserResize="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="RozmiarDanych" CanUserResize="True"></DataGridTextColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Margin="5" Grid.Column="0" Content="Nagrywaj"/>
+            <Button Margin="5" Grid.Column="1" Content="Pauza"/>
+            <Label Content="Stan : Uruchomiony" Grid.Row="1" Grid.ColumnSpan="2"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16"></Label>
+        </Grid>
+    </Grid>
+</Window>
