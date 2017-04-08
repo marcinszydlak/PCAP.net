@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logika\Logic.cspro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{6D725E51-AE04-4F80-ADCC-1F78548C2D45}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiddlerTESTOWY", "FiddlerTESTOWY\FiddlerTESTOWY.csproj", "{B3E87596-25A2-40C7-91D2-853C733CE4F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6D725E51-AE04-4F80-ADCC-1F78548C2D45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D725E51-AE04-4F80-ADCC-1F78548C2D45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D725E51-AE04-4F80-ADCC-1F78548C2D45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E87596-25A2-40C7-91D2-853C733CE4F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E87596-25A2-40C7-91D2-853C733CE4F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E87596-25A2-40C7-91D2-853C733CE4F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E87596-25A2-40C7-91D2-853C733CE4F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
